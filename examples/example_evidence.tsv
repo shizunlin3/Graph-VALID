@@ -1,0 +1,7 @@
+case_id	p_snp	p_sv	n_snp	n_sv	same_chromosome	distance_bp	r2	n_pair	conditional_p_snp	conditional_p_sv	empirical_p_snp	empirical_p_sv	lmm_support_snp	lmm_support_sv
+null_case	0.9	0.8	1000	100	true	10000	0.01	300	0.5	0.6	0.5	0.5	false	false
+snp_case	1e-10	0.2	1000	100	true	10000	0.01	300	1e-4	0.5	0.01	0.5	true	false
+sv_case	0.2	1e-8	1000	100	true	10000	0.01	300	0.5	1e-4	0.5	0.01	false	true
+tag_case	1e-10	1e-8	1000	100	true	10000	0.90	300	0.01	0.01	0.01	0.01	true	true
+mixed_case	1e-10	1e-8	1000	100	true	10000	0.05	300	0.01	0.01	0.01	0.01	true	true
+intermediate_case	1e-10	1e-8	1000	100	true	10000	0.50	300	0.01	0.01	0.01	0.01	true	true

@@ -1,0 +1,27 @@
+{
+  "package": "Graph-VALID public release candidate",
+  "status": "exact_reproduction_validated",
+  "validation": {
+    "compileall": "PASS",
+    "pytest": "PASS",
+    "unit_test_count": 16,
+    "deterministic_example": "PASS",
+    "absolute_local_path_audit": "PASS",
+    "secret_pattern_audit": "PASS",
+    "internal_stage_pattern_audit": "PASS",
+    "manuscript_constant_checks": "PASS"
+  },
+  "full_data_reproduction": {
+    "status": "validated_against_hash_verified_canonical_outputs",
+    "replicate_count": 500,
+    "B1_B5_rowwise_prediction_mismatches": 0,
+    "B5_intermediate_mismatches": 0,
+    "classwise_metric_field_mismatches": 0,
+    "bootstrap_seed": 282049723644848642,
+    "bootstrap_ci95": [
+      -0.04695832892520332,
+      0.006105670734807242
+    ],
+    "global_superiority": false
+  }
+}

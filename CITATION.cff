@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use Graph-VALID, please cite the associated manuscript."
+title: "Graph-VALID"
+version: "0.1.0"
+authors:
+  - family-names: "Shi"
+    given-names: "Zunlin"
+  - family-names: "Li"
+    given-names: "Zhi"
+  - family-names: "He"
+    given-names: "Lizhou"
+  - family-names: "Yang"
+    given-names: "Fan"
+type: software
+repository-code: "https://github.com/shizunlin3/Graph-VALID"

@@ -1,0 +1,33 @@
+{
+  "headline_macro_f1": {
+    "B1": 0.18548752834467122,
+    "B2": 0.2310087836300303,
+    "B3": 0.29013104666678585,
+    "B4": 0.35531271332661607,
+    "B5": 0.3358046552591913
+  },
+  "B5_minus_B4": -0.019508058067424783,
+  "paired_bootstrap_ci95": [
+    -0.04695832892520332,
+    0.006105670734807242
+  ],
+  "global_superiority": false,
+  "B4_prediction_counts": {
+    "NULL": 218,
+    "SNP_LED": 71,
+    "SV_RETAINED": 82,
+    "CROSS_SOURCE_TAG_AMBIGUOUS": 5,
+    "MIXED": 20,
+    "UNRESOLVED": 104
+  },
+  "B5_prediction_counts": {
+    "NULL": 258,
+    "SNP_LED": 33,
+    "SV_RETAINED": 79,
+    "CROSS_SOURCE_TAG_AMBIGUOUS": 3,
+    "MIXED": 19,
+    "UNRESOLVED": 108
+  },
+  "B5_abstention": 0.216,
+  "B5_coverage": 0.784
+}
